@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: #1c1e53;
+    transition: color 0.3s ease;
+}
+
+a:hover{
+    color: #5e3bee !important;
+}
+
+h5{
+    font-size: 20px;
+}
+
+li{
+    list-style: none;
+}
+
+nav{
+    background-color: #fff;
+    position: sticky;
+    top: 0;
+    padding: 0 85px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    box-shadow: 0 5px 80px rgba(0, 0, 0, 0.1);
+}
+
+nav .logo,
+footer .logo{
+    display: flex;
+    align-items: center;
+}
+
+nav .logo a,
+footer .logo a{
+    margin-left: 8px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+nav .logo img,
+footer .logo img{
+    width: 80px;
+    height: 80px;
+}
+nav ul,
+footer .top ul{
+    display: flex;
+    gap: 40px;
+}
+
+nav button{
+    color: #1c1e53;
+    background-color: transparent;
+    padding: 12px 16px;
+    border-radius: 5px;
+    border: 1px solid #1c1e53;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+nav button:hover{
+    background-color: #5e3bee;
+    border-color: #5e3bee;
+    color: #fff;
+}
+
+.main{
+    background-color: #deebee;
+    padding: 90px 85px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.main .left{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.main .right img{
+    width: 300px;
+}
+
+.aboutme{
+    padding: 110px 85px 0;
+    margin-bottom: 50px;
+}
+
+.aboutme h3,
+.gordon h3,
+.ccs h3,
+.sportsfest h3
+{
+    font-size: 40px;
+    margin-top: 10px;
+}
+
+.aboutme .aboutme-items{
+    display: flex;
+    margin-top: 70px;
+    gap: 30px;
+}
+
+.aboutme .aboutme-items .item{
+    background-color: #deebee;
+    width: 25%;
+    border-radius: 10px;
+    padding: 32px;
+    border-bottom: 4px solid transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.aboutme .aboutme-items .item:hover{
+    border-color: #5e3bee;
+}
+
+.aboutme .aboutme-items .item h4{
+    font-size: 18px;
+}
+
+.aboutme .aboutme-items .item p{
+    margin-top: 20px;
+    font-size: 14px;
+    line-height: 22px;
+    color: #1c1e53;
+}
+
+.gordon{
+    padding: 110px 85px 0;
+    margin-bottom: 50px;
+}
+
+.gordon .gordon-items{
+    display: flex;
+    margin-top: 70px;
+    gap: 30px;
+}
+
+.gordon .gordon-items .item{
+    background-color: #deebee;
+    width: 25%;
+    border-radius: 10px;
+    padding: 32px;
+    border-bottom: 4px solid transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.gordon .gordon-items .item:hover{
+    border-color: #5e3bee;
+}
+
+.gordon .gordon-items .item h4{
+    font-size: 18px;
+}
+
+.gordon .gordon-items .item p{
+    margin-top: 20px;
+    font-size: 14px;
+    line-height: 22px;
+    color: #1c1e53;
+}
+
+.ccs{
+    padding: 110px 85px 0;
+    margin-bottom: 100px;
+}
+
+.ccs .ccs-items{
+    display: flex;
+    margin-top: 70px;
+    gap: 30px;
+}
+
+.ccs .ccs-items .item{
+    background-color: #deebee;
+    width: 25%;
+    border-radius: 10px;
+    padding: 32px;
+    border-bottom: 4px solid transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.ccs .ccs-items .item:hover{
+    border-color: #5e3bee;
+}
+
+.ccs .ccs-items .item h4{
+    font-size: 18px;
+}
+
+.ccs .ccs-items .item p{
+    margin-top: 20px;
+    font-size: 14px;
+    line-height: 22px;
+    color: #1c1e53;
+}
+
+.sfest{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.sfest2{
+    padding: 110px 85px 0;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.sfest2{
+    background-color: #eedede;
+    padding: 90px 85px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.sfest2 .left{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.sfest2 .right img{
+    width: 300px;
+}
